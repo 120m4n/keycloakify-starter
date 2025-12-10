@@ -1,6 +1,7 @@
 # This file is managed by Keycloakify, do not edit it manually.
 
 # === Owned files start ===
+# account/KcAccountUi.tsx
 # account/root/Header.tsx
 # === Owned files end =====
 
@@ -78,7 +79,6 @@
 /account/api.ts
 /account/environment.ts
 /account/i18next.d.ts
-/account/KcAccountUi.tsx
 /account/KcContext.ts
 /account/KcPage.tsx
 /account/routes.tsx
