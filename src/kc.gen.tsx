@@ -26,7 +26,6 @@ export const kcEnvDefaults: Record<KcEnvName, string> = {};
  */
 export type KcContext =
     | import("./login/KcContext").KcContext
-    | import("./account/KcContext").KcContext;
 
 declare global {
     interface Window {
@@ -35,7 +34,7 @@ declare global {
 }
 
 export const KcLoginPage = lazy(() => import("./login/KcPage"));
-export const KcAccountPage = lazy(() => import("./account/KcPage"));
+
 
 export function KcPage(props: { kcContext: KcContext; fallback?: ReactNode }) {
     const { kcContext, fallback } = props;

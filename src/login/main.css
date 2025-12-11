@@ -39,11 +39,11 @@
 body.kcBodyClass{
     /* Sets a fixed background image centered on the page, without repeating */
     background-color: #0070e7;
-    background-image: url("../assets/background_es_43.png");
+    background-image: url("../assets/background_es_2025.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
 
     /* Other possible options:    */
        /*  background-size: cover; Scales image to cover entire area */
